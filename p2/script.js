@@ -5,7 +5,7 @@ const showLogin = () => {
     <h1>Login Form</h1>
     <p><input type="text" id="txtEmail"></p>
     <p><input type="password" id="txtPass"></p>
-    <p><button onclick ='showhomw'>Log In</button></p>
+    <p><button onclick ='showhomw()'>Log In</button></p>
     <p><button onclick='showRegister()'>Create Account</button></p>
     </div>
     `
