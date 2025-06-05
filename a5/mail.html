@@ -4,20 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Document</title>
-  <script>
-    const name = () => {
-      let n1 = document.getElementById("n").value;
-      dvResult.innerHTML = n1
-    };
-  </script>
+ 
 </head>
+
 <body>
 
   <p><input type="text" id="n" /></p>
   
-  <button onclick="name()">Submit</button>
+  <button onclick="name1()">Submit</button>
   <hr>
   <div id="dvResult"></div>
-
+ <script>
+    const name1 = () => {
+      let n1 = document.getElementById("n").value;
+      dvResult.innerHTML = n1
+    };
+  </script>
 </body>
 </html>
