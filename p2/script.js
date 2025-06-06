@@ -25,7 +25,7 @@ const showRegister = () => {
 }
 
 const showhomw = () =>{
-    let str= `<h1>Register Form</h1>`
+    let str= `<h1>welcome</h1>`
 
       root.innerHTML=str
 }
