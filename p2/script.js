@@ -19,6 +19,7 @@ const showRegister = () => {
      <p><input type="text" id="txtEmail"></p>
     <p><input type="password" id="txtPass"></p>
     <button>Register</button>
+    <button>aldready a member</button>
     `
     root.innerHTML = str
 }
