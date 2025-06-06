@@ -25,11 +25,7 @@ const showRegister = () => {
 }
 
 const showhomw = () =>{
-    let str=` <ul>
-        <li> HOME </li>
-        <li> About </li>
-        <li> Logout </li>
-                   </ul>`
+    let str=` <p> hi </p>`
 
       root.innerHTML=str
 }
