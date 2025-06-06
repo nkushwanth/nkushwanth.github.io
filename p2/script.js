@@ -25,11 +25,11 @@ const showRegister = () => {
 }
 
 const showhomw = () =>{
-    let str= <ul>
+    let str=` <ul>
         <li> HOME </li>
         <li> About </li>
         <li> Logout </li>
-                   </ul>
+                   </ul>`
 
       root.innerHTML=str
 }
