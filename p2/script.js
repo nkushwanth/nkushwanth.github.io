@@ -31,7 +31,7 @@ const showHome = () => {
   let str = `
     <h1>Welcome ${user.name}</h1>
     <hr>
-    <p><select>
+    <p><select id='bal'>
      <option value=0>--select--</option>
       <option value=1>Deposit</option>
       <option value=2>Withdraw</option>
@@ -72,3 +72,17 @@ const validateUser = () => {
     dvMsg.innerHTML = "Access Denied";
   }
 };
+
+ const updatebal = () =>{
+    const op = document.getElementById('bal').value;
+    const bal =parseFloat(document.getElementById('textamount').value);
+
+    if(op==='1'){
+        user.balance+=bal;
+    }
+    else if(op=='2'){
+         user.balance-=bal;
+    }
+
+    showHome();
+ }
