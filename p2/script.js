@@ -39,6 +39,6 @@ const addUser =()=>{
     }
     users.push(user);
     console.log(users);
-showLogin()
-}
+showLogin();
+};
 
