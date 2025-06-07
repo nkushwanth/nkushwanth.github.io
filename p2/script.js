@@ -1,4 +1,4 @@
-
+const users=[];
 const showLogin = () => {
     let str=`
     <div class='App-Container'>
@@ -25,7 +25,20 @@ const showRegister = () => {
 }
 
 const showhomw = () =>{
-    let str=` <p> hi </p>`
+    let str= `<h1>Register Form</h1>`
 
       root.innerHTML=str
 }
+
+const addUser =()=>{
+    const user ={
+        names:document.getElementById("txtName").value,
+        email:document.getElementById("txtEmail").value,
+        pass:document.getElementById("txtPass").value,
+
+    }
+    users.push(user);
+    console.log(users);
+showLogin()
+}
+
