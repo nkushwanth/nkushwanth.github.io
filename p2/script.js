@@ -75,13 +75,13 @@ const validateUser = () => {
 
  const updatebal = () =>{
     const op = document.getElementById('bal').value;
-    const bal =parseFloat(document.getElementById('textamount').value);
+    const bala =parseFloat(document.getElementById('textamount').value);
 
     if(op==='1'){
-        user.balance+=bal;
+        user.balance+=bala;
     }
     else if(op=='2'){
-         user.balance-=bal;
+         user.balance-=bala;
     }
 
     showHome();
